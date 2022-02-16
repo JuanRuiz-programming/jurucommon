@@ -1,6 +1,6 @@
 import { Subjects } from "./subjects";
 
-export interface A11yConfigCreated {
+export interface A11yConfigCreatedEvent {
   subjects: Subjects.A11yConfigCreated;
   data: {
     id: string;
