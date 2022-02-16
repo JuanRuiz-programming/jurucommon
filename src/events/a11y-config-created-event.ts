@@ -17,5 +17,6 @@ export interface A11yConfigCreated {
     audios: string;
     readingGuideLine: boolean;
     bigCursor: boolean;
+    bigBlackCursor: boolean;
   };
 }
