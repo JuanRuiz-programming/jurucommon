@@ -12,9 +12,9 @@ export interface A11yConfigCreatedEvent {
     highlightTitles: boolean;
     highlightLinks: boolean;
     language: string;
-    images: string;
-    videos: string;
-    audios: string;
+    images: boolean;
+    videos: boolean;
+    audios: boolean;
     readingGuideLine: boolean;
     bigCursor: boolean;
     bigBlackCursor: boolean;
