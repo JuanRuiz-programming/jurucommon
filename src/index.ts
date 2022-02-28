@@ -36,7 +36,7 @@ export * from "./events/course-demo-created-event";
 // Activities events
 export * from "./events/types/activities-status";
 export * from "./events/types/activities-typologies";
-export * from "./events/activity-created";
+export * from "./events/activity-created-event";
 export * from "./events/course-demo-created-event";
 // A11y events
 export * from "./events/a11y-config-created-event";

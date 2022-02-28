@@ -4,7 +4,7 @@ export interface A11yConfigCreatedEvent {
   subjects: Subjects.A11yConfigCreated;
   data: {
     id: string;
-    version: number;
+    owner: string;
     profile: string;
     theme: string;
     layout: string;
@@ -18,5 +18,6 @@ export interface A11yConfigCreatedEvent {
     readingGuideLine: boolean;
     bigCursor: boolean;
     bigBlackCursor: boolean;
+    version: number;
   };
 }
