@@ -1,4 +1,4 @@
-import { Subjects } from './subjects';
+import { Subjects } from "./subjects";
 
 export interface UserCreatedEvent {
   subject: Subjects.UserCreated;
@@ -10,5 +10,9 @@ export interface UserCreatedEvent {
     lastname: string;
     role?: string;
     email: string;
+    plan?: string;
+    projects?: string[];
+    courses?: string[];
+    activities?: string[];
   };
 }

@@ -1,10 +1,14 @@
-import { Request, Response, NextFunction } from 'express';
-import jwt from 'jsonwebtoken';
+import { Request, Response, NextFunction } from "express";
+import jwt from "jsonwebtoken";
 
 interface UserPayload {
   id: string;
   email: string;
   role: string;
+  plan: string;
+  projects: string[];
+  courses: string[];
+  activities: string[];
 }
 
 declare global {
