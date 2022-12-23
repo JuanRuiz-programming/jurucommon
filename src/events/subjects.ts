@@ -1,19 +1,21 @@
 export enum Subjects {
-  // AUTH EVENTS
+  // AUTH SERVICE EVENTS
   UserCreated = "user:created",
   UserUpdated = "user:updated",
+  UserGet = "user:get",
   UserDeleted = "user:deleted",
   UserBlocked = "user:blocked",
   UserPenalized = "user:penalized",
 
-  // PROFILE EVENTS
+  // PROFILE SERVICE EVENTS
   ProfileCreated = "profile:created",
   ProfileDemoCreated = "profiledemo:created",
   ProfileUpdated = "profile:updated",
-  ProfilePublished = "profile:published",
-  ProfileUnpublished = "profile:unpublished",
+  ProfileGet = "profile:get",
+  // ProfilePublished = "profile:published",
+  // ProfileUnpublished = "profile:unpublished",
 
-  // PROJECT EVENTS
+  // PROJECT SERVICE EVENTS
   ProjectCreated = "project:created",
   ProjectDemoCreated = "projectdemo:created",
   ProjectUpdated = "project:updated",
@@ -26,7 +28,7 @@ export enum Subjects {
   ProjectPromoted = "project:promoted",
   ProjectWinners = "project:winners",
 
-  // COURSE EVENTS
+  // COURSE SERVICE EVENTS
   CourseCreated = "course:created",
   CourseDemoCreated = "coursedemo:created",
   CourseUpdated = "course:updated",
@@ -36,7 +38,7 @@ export enum Subjects {
   CourseFinished = "course:finished",
   CoursePromoted = "course:promoted",
 
-  // ACTIVITY EVENTS
+  // ACTIVITY SERVICE EVENTS
   ActivityCreated = "activity:created",
   ActivityDemoCreated = "activitydemo:created",
   ActivityUpdated = "activity:updated",
@@ -45,19 +47,23 @@ export enum Subjects {
   ActivityUnpublished = "activity:unpublished",
   ActivityFinished = "activity:finished",
 
-  // A11Y EVENTS
+  // A11Y SERVICE EVENTS
   A11yConfigCreated = "a11yconfig:created",
   A11yConfigUpdated = "a11yconfig:updated",
 
-  // ESTABLISHMENT EVENTS
+  // INSTITUTION SERVICE EVENTS
 
-  // ADDS EVENTS
+  // ADDS SERVICE EVENTS
 
-  // RELEASES EVENTS
+  // RELEASES SERVICE EVENTS
 
-  // REVIEWS EVENTS
+  // REVIEWS SERVICE EVENTS
 
-  // BABYSTEPS EVENTS
+  // NOTIFICATIONS EVENTS
 
-  // STUDENTS  GROUP EVENTS
+  // BABYSTEPS SERVICE EVENTS
+
+  // STUDENTS GROUP SERVICE EVENTS
+
+  // COMPANY SERVICE EVENTS
 }

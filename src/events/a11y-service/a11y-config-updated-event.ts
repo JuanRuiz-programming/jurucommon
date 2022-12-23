@@ -1,7 +1,7 @@
-import { Subjects } from "./subjects";
+import { Subjects } from "../subjects";
 
-export interface A11yConfigCreatedEvent {
-  subject: Subjects.A11yConfigCreated;
+export interface A11yConfigUpdatedEvent {
+  subject: Subjects.A11yConfigUpdated;
   data: {
     id: string;
     owner: string;

@@ -1,4 +1,4 @@
-import { Subjects } from "./subjects";
+import { Subjects } from "../subjects";
 
 export interface UserDeletedEvent {
   subject: Subjects.UserDeleted;
@@ -11,5 +11,8 @@ export interface UserDeletedEvent {
     role?: string;
     email: string;
     plan?: string;
+    projects?: string[];
+    courses?: string[];
+    activities?: string[];
   };
 }

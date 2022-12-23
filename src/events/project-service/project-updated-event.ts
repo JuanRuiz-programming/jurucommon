@@ -1,15 +1,15 @@
-import { Subjects } from './subjects';
+import { Subjects } from "../subjects";
 
-export interface ProjectCreatedEvent {
-  subject: Subjects.ProjectCreated;
+export interface ProjectUpdatedEvent {
+  subject: Subjects.ProjectUpdated;
   data: {
     id: string;
     version: number;
     owner: string;
-    projectType: string;
     coverPhoto: string;
     guidelines: string;
     code: string;
+    projectType: string;
     name: string;
     slug: string;
     establishment: string;

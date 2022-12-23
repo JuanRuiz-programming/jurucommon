@@ -1,5 +1,5 @@
-import { Subjects } from './subjects';
-import { CourseStatus } from './types/course-status';
+import { Subjects } from "../subjects";
+import { CourseStatus } from "../types/course-status";
 
 export interface CourseDemoCreatedEvent {
   subject: Subjects.CourseDemoCreated;
