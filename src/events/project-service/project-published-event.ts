@@ -1,7 +1,7 @@
 import { Subjects } from "../subjects";
 
-export interface ProjectFollowedEvent {
-  subject: Subjects.ProjectFollowed;
+export interface ProjectPublishedEvent {
+  subject: Subjects.ProjectPublished;
   data: {
     id: string;
     version: number;

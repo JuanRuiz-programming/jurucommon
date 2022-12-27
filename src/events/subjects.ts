@@ -12,8 +12,6 @@ export enum Subjects {
   ProfileDemoCreated = "profiledemo:created",
   ProfileUpdated = "profile:updated",
   ProfileGet = "profile:get",
-  // ProfilePublished = "profile:published",
-  // ProfileUnpublished = "profile:unpublished",
 
   // PROJECT SERVICE EVENTS
   ProjectCreated = "project:created",
@@ -27,6 +25,8 @@ export enum Subjects {
   projectCloned = "project:cloned",
   ProjectPromoted = "project:promoted",
   ProjectWinners = "project:winners",
+  ProjectFollowed = "project:followed",
+  ProjectLiked = "project:liked",
 
   // COURSE SERVICE EVENTS
   CourseCreated = "course:created",
@@ -37,6 +37,7 @@ export enum Subjects {
   CourseUnpublished = "course:unpublished",
   CourseFinished = "course:finished",
   CoursePromoted = "course:promoted",
+  CourseAssigned = "course:assigned",
 
   // ACTIVITY SERVICE EVENTS
   ActivityCreated = "activity:created",
