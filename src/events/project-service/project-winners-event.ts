@@ -4,7 +4,7 @@ export interface ProjectWinnersEvent {
   subject: Subjects.ProjectWinners;
   data: {
     id: string;
-    version: string;
+    version: number;
     author: string;
     type: string;
     scope: string;

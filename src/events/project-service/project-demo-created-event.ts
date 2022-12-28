@@ -4,7 +4,7 @@ export interface ProjectDemoCreatedEvent {
   subject: Subjects.ProjectDemoCreated;
   data: {
     id: string;
-    version: string;
+    version: number;
     author: string;
     type: string;
     scope: string;

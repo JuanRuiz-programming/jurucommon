@@ -4,7 +4,7 @@ export interface ProjectLikedEvent {
   subject: Subjects.ProjectLiked;
   data: {
     id: string;
-    version: string;
+    version: number;
     author: string;
     type: string;
     scope: string;

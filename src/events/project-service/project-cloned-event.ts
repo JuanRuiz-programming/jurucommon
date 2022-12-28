@@ -4,7 +4,7 @@ export interface ProjectClonedEvent {
   subject: Subjects.projectCloned;
   data: {
     id: string;
-    version: string;
+    version: number;
     author: string;
     type: string;
     scope: string;
