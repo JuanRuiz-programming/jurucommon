@@ -4,7 +4,8 @@ export interface ProjectFinishedEvent {
   subject: Subjects.projectFinished;
   data: {
     id: string;
-    version: number;
-    owner: string;
+    version: string;
+    author: string;
+    title: string;
   };
 }

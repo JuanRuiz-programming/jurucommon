@@ -4,7 +4,8 @@ export interface ProjectDeletedEvent {
   subject: Subjects.ProjectDeleted;
   data: {
     id: string;
-    version: number;
-    owner: string;
+    version: string;
+    author: string;
+    title: string;
   };
 }
