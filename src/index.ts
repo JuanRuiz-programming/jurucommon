@@ -34,7 +34,7 @@ export * from "./events/project-service/project-deleted-event";
 export * from "./events/project-service/project-demo-created-event";
 export * from "./events/project-service/project-finished-event";
 export * from "./events/project-service/project-followed-event";
-export * from "./events/project-service/project-liked-event";
+export * from "./events/project-service/project-feeling-event";
 export * from "./events/project-service/project-promoted-event";
 export * from "./events/project-service/project-published-event";
 export * from "./events/project-service/project-updated-event";

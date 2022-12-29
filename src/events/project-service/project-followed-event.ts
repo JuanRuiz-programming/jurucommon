@@ -30,5 +30,6 @@ export interface ProjectFollowedEvent {
     status: string;
     followers?: string[];
     adds?: string[];
+    feeling?: string;
   };
 }

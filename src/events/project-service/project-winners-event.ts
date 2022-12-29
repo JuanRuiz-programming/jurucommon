@@ -30,5 +30,6 @@ export interface ProjectWinnersEvent {
     status: string;
     followers?: string[];
     adds?: string[];
+    feeling?: string;
   };
 }

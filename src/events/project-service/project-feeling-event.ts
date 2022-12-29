@@ -1,7 +1,7 @@
 import { Subjects } from "../subjects";
 
-export interface ProjectLikedEvent {
-  subject: Subjects.ProjectLiked;
+export interface ProjectFeelingEvent {
+  subject: Subjects.ProjectFeeling;
   data: {
     id: string;
     version: number;
@@ -30,5 +30,6 @@ export interface ProjectLikedEvent {
     status: string;
     followers?: string[];
     adds?: string[];
+    feeling?: string;
   };
 }

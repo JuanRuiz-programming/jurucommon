@@ -26,7 +26,7 @@ export enum Subjects {
   ProjectPromoted = "project:promoted",
   ProjectWinners = "project:winners",
   ProjectFollowed = "project:followed",
-  ProjectLiked = "project:liked",
+  ProjectFeeling = "project:feeling",
 
   // COURSE SERVICE EVENTS
   CourseCreated = "course:created",
