@@ -17,19 +17,28 @@ export * from "./events/subjects";
 export * from "./events/base-publisher";
 export * from "./events/base-listener";
 // Auth events
+export * from "./events/auth-service/user-blocked-event";
 export * from "./events/auth-service/user-created-event";
-export * from "./events/auth-service/user-updated-event";
 export * from "./events/auth-service/user-deleted-event";
 export * from "./events/auth-service/user-get-event";
+export * from "./events/auth-service/user-updated-event";
 // Profile events
 export * from "./events/profile-service/profile-created-event";
 export * from "./events/profile-service/profile-demo-created-event";
 export * from "./events/profile-service/profile-updated-event";
 // Projects events
 export * from "./events/types/project-status";
+export * from "./events/project-service/project-cloned-event";
 export * from "./events/project-service/project-created-event";
+export * from "./events/project-service/project-deleted-event";
 export * from "./events/project-service/project-demo-created-event";
+export * from "./events/project-service/project-finished-event";
+export * from "./events/project-service/project-followed-event";
+export * from "./events/project-service/project-liked-event";
+export * from "./events/project-service/project-promoted-event";
+export * from "./events/project-service/project-published-event";
 export * from "./events/project-service/project-updated-event";
+export * from "./events/project-service/project-winners-event";
 // Courses events
 export * from "./events/types/course-status";
 export * from "./events/course-service/course-created-event";
