@@ -12,6 +12,8 @@ export enum Subjects {
   ProfileDemoCreated = "profiledemo:created",
   ProfileUpdated = "profile:updated",
   ProfileGet = "profile:get",
+  ProfileDeleted = "profile:deleted",
+  ProfileGetUser = "profile:getUser",
 
   // PROJECT SERVICE EVENTS
   ProjectCreated = "project:created",
@@ -44,6 +46,7 @@ export enum Subjects {
   ActivityDemoCreated = "activitydemo:created",
   ActivityUpdated = "activity:updated",
   ActivityDeleted = "activity:deleted",
+  ActivityAssigned = "activity:assigned",
   ActivityPublished = "activity:published",
   ActivityUnpublished = "activity:unpublished",
   ActivityFinished = "activity:finished",
