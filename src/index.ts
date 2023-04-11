@@ -63,6 +63,7 @@ export * from "./events/activity-service/activity-finished-event";
 export * from "./events/activity-service/activity-published-event";
 export * from "./events/activity-service/activity-unpublished-event";
 export * from "./events/activity-service/activity-updated-event";
+export * from "./events/activity-service/activity-graded-event";
 // A11y events
 export * from "./events/a11y-service/a11y-config-created-event";
 export * from "./events/a11y-service/a11y-config-updated-event";

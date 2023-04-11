@@ -50,6 +50,7 @@ export enum Subjects {
   ActivityPublished = "activity:published",
   ActivityUnpublished = "activity:unpublished",
   ActivityFinished = "activity:finished",
+  ActivityGraded = "activity:graded",
 
   // A11Y SERVICE EVENTS
   A11yConfigCreated = "a11yconfig:created",
