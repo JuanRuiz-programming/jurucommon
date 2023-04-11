@@ -47,7 +47,6 @@ export enum Subjects {
   ActivityUpdated = "activity:updated",
   ActivityDeleted = "activity:deleted",
   ActivityAssigned = "activity:assigned",
-  ActivityPublished = "activity:published",
   ActivityUnpublished = "activity:unpublished",
   ActivityFinished = "activity:finished",
   ActivityGraded = "activity:graded",

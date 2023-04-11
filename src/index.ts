@@ -60,7 +60,6 @@ export * from "./events/activity-service/activity-created-event";
 export * from "./events/activity-service/activity-deleted-event";
 export * from "./events/activity-service/activity-demo-created-event";
 export * from "./events/activity-service/activity-finished-event";
-export * from "./events/activity-service/activity-published-event";
 export * from "./events/activity-service/activity-unpublished-event";
 export * from "./events/activity-service/activity-updated-event";
 export * from "./events/activity-service/activity-graded-event";
