@@ -11,8 +11,5 @@ export interface UserCreatedEvent {
     role?: string;
     email: string;
     plan?: string;
-    projects?: string[];
-    courses?: string[];
-    activities?: string[];
   };
 }
