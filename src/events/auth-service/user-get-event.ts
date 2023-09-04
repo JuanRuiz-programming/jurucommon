@@ -14,6 +14,6 @@ export interface UserGetEvent {
     projects?: string[];
     courses?: string[];
     activities?: string[];
-    status: string;
+    status?: string;
   };
 }
