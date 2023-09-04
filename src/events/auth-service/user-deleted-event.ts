@@ -14,5 +14,6 @@ export interface UserDeletedEvent {
     projects?: string[];
     courses?: string[];
     activities?: string[];
+    status?: string;
   };
 }

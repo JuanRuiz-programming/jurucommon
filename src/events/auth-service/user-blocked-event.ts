@@ -14,5 +14,6 @@ export interface UserBlockedEvent {
     projects?: string[];
     courses?: string[];
     activities?: string[];
+    status?: string;
   };
 }

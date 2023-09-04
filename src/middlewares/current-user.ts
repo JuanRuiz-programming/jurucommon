@@ -3,12 +3,17 @@ import jwt from "jsonwebtoken";
 
 interface UserPayload {
   id: string;
+  version: string;
+  avatar: string;
+  name: string;
+  lastname: string;
   email: string;
   role: string;
   plan: string;
   projects: string[];
   courses: string[];
   activities: string[];
+  status: string;
 }
 
 declare global {

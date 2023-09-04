@@ -14,5 +14,6 @@ export interface UserUpdatedEvent {
     projects?: string[];
     courses?: string[];
     activities?: string[];
+    status?: string;
   };
 }
