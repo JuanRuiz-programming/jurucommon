@@ -11,11 +11,14 @@ export interface A11yConfigUpdatedEvent {
     typography: string;
     highlightTitles: boolean;
     highlightLinks: boolean;
+    letterSpacing: string;
+    lineHeight: string;
     language: string;
     images: boolean;
     videos: boolean;
     audios: boolean;
     readingGuideLine: boolean;
+    readingGuideBox: boolean;
     bigCursor: boolean;
     bigBlackCursor: boolean;
     version: number;
