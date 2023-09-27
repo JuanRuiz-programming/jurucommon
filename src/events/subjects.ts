@@ -17,7 +17,7 @@ export enum Subjects {
 
   // PROJECT SERVICE EVENTS
   ProjectCreated = "project:created",
-  ProjectDemoCreated = "projectdemo:created",
+  ProjectdemoCreated = "projectdemo:created",
   ProjectUpdated = "project:updated",
   ProjectDeleted = "project:deleted",
   ProjectCancelled = "project:cancelled",
