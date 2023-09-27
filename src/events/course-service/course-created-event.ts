@@ -5,17 +5,8 @@ export interface CourseCreatedEvent {
   subject: Subjects.CourseCreated;
   data: {
     id: string;
+    author: string;
     projectId?: string[];
     version: number;
-    owner: string;
-    code: string;
-    name: string;
-    slug: string;
-    establishment: string;
-    area: string;
-    desc: string;
-    topics: string[];
-    activities?: string[];
-    status: CourseStatus;
   };
 }
