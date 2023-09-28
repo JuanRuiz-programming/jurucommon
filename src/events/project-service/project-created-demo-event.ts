@@ -5,6 +5,7 @@ export interface ProjectCreatedDemoEvent {
   data: {
     id: string;
     version: number;
-    author: string;
+    author: string[];
+    owner: string;
   };
 }
