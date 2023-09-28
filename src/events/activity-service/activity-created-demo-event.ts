@@ -4,11 +4,9 @@ export interface ActivityDemoCreatedEvent {
   subject: Subjects.ActivityDemoCreated;
   data: {
     id: string;
-    owner: string;
-    profileId: string;
-    projectId: string;
+    author: string;
     courseId: string;
+    projectId: string;
     version: number;
-    type: string;
   };
 }

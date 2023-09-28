@@ -58,7 +58,7 @@ export * from "./events/types/activities-typologies";
 export * from "./events/activity-service/activity-assigned-event";
 export * from "./events/activity-service/activity-created-event";
 export * from "./events/activity-service/activity-deleted-event";
-export * from "./events/activity-service/activity-demo-created-event";
+export * from "./events/activity-service/activity-created-demo-event";
 export * from "./events/activity-service/activity-finished-event";
 export * from "./events/activity-service/activity-unpublished-event";
 export * from "./events/activity-service/activity-updated-event";
