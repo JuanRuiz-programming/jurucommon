@@ -5,8 +5,7 @@ export interface ActivityDemoCreatedEvent {
   data: {
     id: string;
     author: string;
-    courseId: string;
-    projectId: string;
+    courses_related: string[];
     version: number;
   };
 }
