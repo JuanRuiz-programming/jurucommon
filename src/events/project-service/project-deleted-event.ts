@@ -5,7 +5,7 @@ export interface ProjectDeletedEvent {
   data: {
     id: string;
     version: number;
-    author: string;
-    title: string;
+    author: string[];
+    owner: string;
   };
 }
