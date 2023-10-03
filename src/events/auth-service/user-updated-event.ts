@@ -10,6 +10,7 @@ export interface UserUpdatedEvent {
     lastname: string;
     role?: string;
     email: string;
+    phone: string;
     plan?: string;
     projects?: string[];
     courses?: string[];
