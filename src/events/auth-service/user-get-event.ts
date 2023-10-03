@@ -8,13 +8,13 @@ export interface UserGetEvent {
     avatar: string;
     name: string;
     lastname: string;
-    role?: string;
+    role: string;
     email: string;
     phone: string;
-    plan?: string;
-    projects?: string;
-    courses?: string;
-    activities?: string;
-    status?: string;
+    plan: string;
+    projects: string[];
+    courses: string[];
+    activities: string[];
+    status: string;
   };
 }
