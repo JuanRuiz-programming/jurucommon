@@ -5,9 +5,6 @@ export interface UserDeletedEvent {
   data: {
     id: string;
     version: number;
-    projects: string[];
-    courses: string[];
-    activities: string[];
     status: string;
   };
 }

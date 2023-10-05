@@ -5,9 +5,6 @@ export interface UserBlockedEvent {
   data: {
     id: string;
     version: number;
-    projects: string[];
-    courses: string[];
-    activities: string[];
     status: string;
   };
 }
