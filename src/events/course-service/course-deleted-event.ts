@@ -4,8 +4,8 @@ export interface CourseDeletedEvent {
   subject: Subjects.CourseDeleted;
   data: {
     id: string;
-    author: string;
-    projectId?: string[];
+    author: string[];
+    owner: string;
     version: number;
   };
 }

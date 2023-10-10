@@ -4,9 +4,8 @@ export interface CourseAssignedEvent {
   subject: Subjects.CourseAssigned;
   data: {
     id: string;
-    projectId?: string[];
-    version: number;
+    author: string[];
     owner: string;
-    name: string;
+    version: number;
   };
 }

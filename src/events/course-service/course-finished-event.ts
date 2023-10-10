@@ -4,8 +4,9 @@ export interface CourseFinishedEvent {
   subject: Subjects.CourseFinished;
   data: {
     id: string;
-    projectId?: string[];
+    author: string[];
+    owner: string;
     version: number;
-    author: string;
+    status: string;
   };
 }

@@ -5,17 +5,8 @@ export interface CourseUpdatedEvent {
   subject: Subjects.CourseUpdated;
   data: {
     id: string;
-    projectId?: string[];
-    version: number;
+    author: string[];
     owner: string;
-    code: string;
-    name: string;
-    slug: string;
-    establishment: string;
-    area: string;
-    desc: string;
-    topics: string[];
-    activities?: string[];
-    status: CourseStatus;
+    version: number;
   };
 }

@@ -45,7 +45,6 @@ export * from "./events/project-service/project-winners-event";
 export * from "./events/types/course-status";
 export * from "./events/course-service/course-assigned-event";
 export * from "./events/course-service/course-created-event";
-export * from "./events/course-service/course-created-demo-event";
 export * from "./events/course-service/course-deleted-event";
 export * from "./events/course-service/course-finished-event";
 export * from "./events/course-service/course-promoted-event";
