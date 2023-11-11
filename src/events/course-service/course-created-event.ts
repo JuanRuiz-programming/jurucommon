@@ -4,6 +4,7 @@ export interface CourseCreatedEvent {
   subject: Subjects.CourseCreated;
   data: {
     id: string;
+    version: number;
     owner: string;
     author: string[];
     type: string;

@@ -5,6 +5,7 @@ export interface CourseUpdatedEvent {
   subject: Subjects.CourseUpdated;
   data: {
     id: string;
+    version: number;
     owner: string;
     author: string[];
     type: string;
