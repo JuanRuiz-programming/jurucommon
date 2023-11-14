@@ -40,6 +40,7 @@ export * from "./events/project-service/project-feeling-event";
 export * from "./events/project-service/project-promoted-event";
 export * from "./events/project-service/project-published-event";
 export * from "./events/project-service/project-updated-event";
+export * from "./events/project-service/project-updated-demo-event";
 export * from "./events/project-service/project-winners-event";
 // Courses events
 export * from "./events/types/course-status";

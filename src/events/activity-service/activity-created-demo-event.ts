@@ -1,6 +1,6 @@
 import { Subjects } from "../subjects";
 
-export interface ActivityDemoCreatedEvent {
+export interface ActivityCreatedDemoEvent {
   subject: Subjects.ActivityDemoCreated;
   data: {
     id: string;

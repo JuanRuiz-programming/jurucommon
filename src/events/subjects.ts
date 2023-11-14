@@ -19,6 +19,7 @@ export enum Subjects {
   ProjectCreated = "project:created",
   ProjectdemoCreated = "projectdemo:created",
   ProjectUpdated = "project:updated",
+  ProjectdemoUpdated = "projectdemo:updated",
   ProjectDeleted = "project:deleted",
   ProjectCancelled = "project:cancelled",
   ProjectPublished = "project:published",
