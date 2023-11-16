@@ -53,6 +53,7 @@ export * from "./events/course-service/course-promoted-event";
 export * from "./events/course-service/course-published-event";
 export * from "./events/course-service/course-unpublished-event";
 export * from "./events/course-service/course-updated-event";
+export * from "./events/course-service/course-updated-demo-event";
 // Activities events
 export * from "./events/types/activities-status";
 export * from "./events/types/activities-typologies";
