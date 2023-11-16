@@ -1,7 +1,7 @@
 import { Subjects } from "../subjects";
 
-export interface CourseUpdatedEvent {
-  subject: Subjects.CourseUpdated;
+export interface CourseUpdatedDemoEvent {
+  subject: Subjects.CourseDemoUpdated;
   data: {
     id: string;
     version: number;
@@ -32,5 +32,5 @@ export interface CourseUpdatedEvent {
     projects_related: string[];
     courses_related: string[];
     tutoring: string[];
-  };
+  }
 }

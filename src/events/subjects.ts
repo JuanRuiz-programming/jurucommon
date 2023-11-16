@@ -34,6 +34,7 @@ export enum Subjects {
   // COURSE SERVICE EVENTS
   CourseCreated = "course:created",
   CourseDemoCreated = "coursedemo:created",
+  CourseDemoUpdated = "coursedemo:updated",
   CourseUpdated = "course:updated",
   CourseDeleted = "course:deleted",
   CoursePublished = "course:published",
