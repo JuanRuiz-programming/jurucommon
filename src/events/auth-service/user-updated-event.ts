@@ -12,5 +12,6 @@ export interface UserUpdatedEvent {
     email: string;
     phone: string;
     plan: string;
+    status: string;
   };
 }
