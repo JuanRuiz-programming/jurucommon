@@ -9,9 +9,9 @@ export interface UserUpdatedEvent {
     name: string;
     lastname: string;
     role: string;
-    email: string;
-    phone: string;
-    plan: string;
-    status: string;
+    // email: string;
+    // phone: string;
+    // plan: string;
+    // status: string;
   };
 }
