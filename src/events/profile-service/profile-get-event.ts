@@ -1,7 +1,7 @@
 import { Subjects } from "../subjects";
 
-export interface ProfileUpdatedEvent {
-  subject: Subjects.ProfileUpdated;
+export interface ProfileGetEvent {
+  subject: Subjects.ProfileGet;
   data: {
     id: string;
     owner: string;

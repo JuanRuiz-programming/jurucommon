@@ -1,8 +1,8 @@
 import { Subjects } from "../subjects";
 
-export interface ProfileUpdatedEvent {
-  subject: Subjects.ProfileUpdated;
-  data: {
+export interface ProfileGetFieldEvent {
+  subject: Subjects.ProfileGetField;
+  dadta: {
     id: string;
     owner: string;
     version: number;

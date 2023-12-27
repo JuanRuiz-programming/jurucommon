@@ -8,11 +8,9 @@ export enum Subjects {
 
   // PROFILE SERVICE EVENTS
   ProfileCreated = "profile:created",
-  ProfileDemoCreated = "profiledemo:created",
   ProfileUpdated = "profile:updated",
   ProfileGet = "profile:get",
-  ProfileDeleted = "profile:deleted",
-  ProfileGetUser = "profile:getUser",
+  ProfileGetField = "profile:getField",
 
   // PROJECT SERVICE EVENTS
   ProjectCreated = "project:created",

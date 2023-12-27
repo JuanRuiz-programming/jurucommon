@@ -24,10 +24,9 @@ export * from "./events/auth-service/user-get-event";
 export * from "./events/auth-service/user-updated-event";
 // Profile events
 export * from "./events/profile-service/profile-created-event";
-export * from "./events/profile-service/profile-demo-created-event";
 export * from "./events/profile-service/profile-updated-event";
-export * from "./events/profile-service/profile-deleted-event";
-export * from "./events/profile-service/profile-get-user-event";
+export * from "./events/profile-service/profile-get-event";
+export * from "./events/profile-service/profile-get-fields-event";
 // Projects events
 export * from "./events/types/project-status";
 export * from "./events/project-service/project-cloned-event";
