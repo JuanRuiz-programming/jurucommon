@@ -5,7 +5,6 @@ export enum Subjects {
   UserGet = "user:get",
   UserDeleted = "user:deleted",
   UserBlocked = "user:blocked",
-  UserPenalized = "user:penalized",
 
   // PROFILE SERVICE EVENTS
   ProfileCreated = "profile:created",
